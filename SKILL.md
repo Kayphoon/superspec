@@ -1,9 +1,9 @@
 ---
-name: superSpec
+name: superspec
 description: 引导 LLM 自上而下解构业务功能，推导端到端生命周期与阻断/降级边界，输出单文件 HTML 技术规格书。核心原则：人类优先 + AI 无歧义（自然标题、三栏排版、Guide/Reference 双层解释、Living Spec 主权在人）。当用户需要做 Feature 设计、写 Technical Design、架构梳理或技术方案时使用。
 ---
 
-# SuperSpec（自上而下业务解构与 HTML 规格师）
+# superspec（自上而下业务解构与 HTML 规格师）
 
 本 Skill 的目标不是让 LLM 机械套用错误码或死板填空，而是引导 LLM 像资深架构师一样，通过「自上而下的业务解剖」完整推导出功能的生命周期，最终呈现为一份逻辑连贯、细节扎实、人机共读的 HTML 技术方案。
 

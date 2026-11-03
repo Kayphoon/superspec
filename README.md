@@ -1,8 +1,8 @@
-# superSpec
+# superspec
 
 > 自上而下业务解构与单文件 HTML 规格师 · 引导 LLM 产出人机共读的高质量 Technical Design
 
-`superSpec` 是一个面向 AI 编程智能体（Claude Code、Codex、Cursor、Alma 等）与资深架构师的规格制定标准与 Skill。它的目标不是让 LLM 机械填表或盲目粘贴代码，而是引导 LLM 像架构师一样通过「自上而下的业务解剖」推导系统生命周期，最终交付为一份具备现代文档质感、逻辑连贯、人机共读的技术方案规格书。
+`superspec` 是一个面向 AI 编程智能体（Claude Code、Codex、Cursor、Alma 等）与资深架构师的规格制定标准与 Skill。它的目标不是让 LLM 机械填表或盲目粘贴代码，而是引导 LLM 像架构师一样通过「自上而下的业务解剖」推导系统生命周期，最终交付为一份具备现代文档质感、逻辑连贯、人机共读的技术方案规格书。
 
 ---
 
@@ -37,12 +37,12 @@
 ## 目录结构
 
 ```text
-superSpec/
+superspec/
 ├── SKILL.md                 # Agent Skill 核心规范与提示词
 ├── README.md                # 仓库说明文档
 └── references/
     ├── template.html        # 生产级三栏 HTML 骨架模板（带标准 CSS 与 Slots）
-    └── example.html         # superSpec 为自身撰写的自举设计规格实例
+    └── example.html         # superspec 为自身撰写的自举设计规格实例
 ```
 
 ---
@@ -55,7 +55,7 @@ superSpec/
 
 ```bash
 mkdir -p ~/.config/alma/skills
-ln -s /path/to/superSpec ~/.config/alma/skills/superSpec
+ln -s /path/to/superspec ~/.config/alma/skills/superspec
 ```
 
 ### Claude Code / Cursor / Codex
@@ -64,12 +64,12 @@ ln -s /path/to/superSpec ~/.config/alma/skills/superSpec
 
 ```bash
 # 作为独立 skill 载入
-cp SKILL.md /path/to/your/project/.codex/skills/superSpec/
+cp SKILL.md /path/to/your/project/.codex/skills/superspec/
 ```
 
 当需要做 Feature 设计、写 Technical Design、架构梳理或技术方案时，直接在对话中触发：
 
-> “使用 superSpec 为 [功能名] 编写技术规格设计”
+> “使用 superspec 为 [功能名] 编写技术规格设计”
 
 ---
 
