@@ -1,6 +1,6 @@
 ---
 name: superspec
-description: 引导 LLM 自上而下解构业务功能，推导端到端生命周期与阻断/降级边界，输出单文件 HTML 技术规格书。核心原则：人类优先 + AI 无歧义（自然标题、三栏排版、Guide/Reference 双层解释、Living Spec 主权在人）。当用户需要做 Feature 设计、写 Technical Design、架构梳理或技术方案时使用。
+description: 引导 LLM 自上而下解构业务功能，推导端到端单向生命周期与阻断/降级边界，输出人类优先、AI 无歧义的三栏现代单文件 HTML 技术规格书。Triggers on "写技术方案", "技术规格", "架构设计", "Feature 设计", "Technical Design", "写 spec", "RFC", or $superspec.
 ---
 
 # superspec（自上而下业务解构与 HTML 规格师）
