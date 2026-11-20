@@ -1,3 +1,5 @@
+> **已迁移**：本 skill 现在维护在 [Kayphoon/superkit](https://github.com/Kayphoon/superkit)，路径 `skills/superspec/`。本仓库保留为只读归档，历史仍在。
+
 # superspec
 
 > 自上而下业务解构与单文件 HTML 规格师 · 引导 LLM 产出人机共读的高质量 Technical Design
